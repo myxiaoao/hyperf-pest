@@ -1,0 +1,72 @@
+{
+    "name": "cooper/hyperf-pest",
+    "description": "Pest Testing for hyperf",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cooper",
+            "email": "myxiaoao@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "pest",
+        "testing",
+        "hyperf"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cooper\\HyperfPest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "hyperf/contract": "~2.2.0",
+        "hyperf/di": "~2.2.0",
+        "hyperf/utils": "~2.2.0",
+        "pestphp/pest": "^1.21"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "hyperf/testing": "~2.2.0",
+        "mockery/mockery": "^1.0",
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "swoole/ide-helper": "^4.5"
+    },
+    "suggest": {
+        "swow/swow": "Required to create swow components."
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "analyse": "phpstan analyse --memory-limit 1024M -l 0 ./src",
+        "cs-fix": "php-cs-fixer fix $1",
+        "pest": "pest -c phpunit.xml --colors=always"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "hyperf": {
+            "config": "Cooper\\HyperfPest\\ConfigProvider"
+        }
+    },
+    "bin": [
+        "bin/co-pest"
+    ]
+}
