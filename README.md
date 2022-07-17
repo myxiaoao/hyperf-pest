@@ -25,6 +25,11 @@ composer create-project hyperf/hyperf-skeleton
 composer require cooper/hyperf-pest
 ```
 
+执行
+```php
+php bin/hyperf.php vendor:publish cooper/hyperf-pest
+```
+
 ### 3.测试命令
 
 ```php
