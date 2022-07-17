@@ -1,7 +1,13 @@
 # Pest Testing for Hyperf
-![Packagist Version](https://img.shields.io/packagist/v/cooper/hyperf-pest)
-![Packagist License](https://img.shields.io/packagist/l/cooper/hyperf-pest)
-![GitHub Main Workflow Status](https://img.shields.io/github/workflow/status/myxiaoao/cooper/hyperf-pest/Tests/master)
+<a href="https://github.com/myxiaoao/hyperf-pest/actions?query=workflow%3APHPUnit">
+    <img src="https://github.com/myxiaoao/hyperf-pest/workflows/PHPUnit/badge.svg" alt="Tests">
+</a>
+<a href="https://packagist.org/packages/cooper/hyperf-pest">
+    <img src="https://poser.pugx.org/cooper/hyperf-pest/v/stable.svg" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/cooper/hyperf-pest">
+    <img src="https://poser.pugx.org/cooper/hyperf-pest/d/total.svg" alt="Total Downloads">
+</a>
 
 [Pest](https://pestphp.com/) 是一个注重简单性的优雅 PHP 测试框架.
 

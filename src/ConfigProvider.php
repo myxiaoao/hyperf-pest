@@ -37,7 +37,7 @@ class ConfigProvider
                 [
                     'id' => 'Demo Test',
                     'description' => 'Sync ExampleTest.php',
-                    'source' => __DIR__.'/test/ExampleTestDemo.php',
+                    'source' => __DIR__ . '/test/ExampleTestDemo.php',
                     'destination' => BASE_PATH . '/test/Pest/ExampleTest.php',
                 ],
             ],
