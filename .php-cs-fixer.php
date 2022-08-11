@@ -1,12 +1,12 @@
 <?php
 
 $header = <<<'EOF'
-This file is part of Hyperf.
+This file is part of cooper/hyperf-pest.
 
-@link     https://www.hyperf.io
-@document https://hyperf.wiki
-@contact  group@hyperf.io
-@license  https://github.com/hyperf/hyperf/blob/master/LICENSE
+@link     https://github.com/myxiaoao/hyperf-pest
+@document https://github.com/myxiaoao/hyperf-pest/blob/master/README.md
+@contact  myxiaoao@gmail.com
+@license  https://github.com/myxiaoao/hyperf-pest/blob/master/LICENSE
 EOF;
 
 return (new PhpCsFixer\Config())
