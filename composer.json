@@ -27,19 +27,19 @@
     },
     "require": {
         "php": ">=8.0",
-        "hyperf/contract": "~2.2.0",
-        "hyperf/di": "~2.2.0",
-        "hyperf/utils": "~2.2.0",
+        "hyperf/contract": "~3.0.0",
+        "hyperf/di": "~3.0.0",
+        "hyperf/utils": "~3.0.0",
         "pestphp/pest": "^1.21"
     },
     "require-dev": {
         "composer/composer": "^2.0",
         "friendsofphp/php-cs-fixer": "^3.0",
-        "hyperf/testing": "~2.2.0",
+        "hyperf/testing": "~3.0.0",
         "mockery/mockery": "^1.0",
         "phpstan/phpstan": "^1.0",
         "phpunit/phpunit": "^9.5",
-        "swoole/ide-helper": "^4.5"
+        "swoole/ide-helper": "^5.0"
     },
     "suggest": {
         "swow/swow": "Required to create swow components."
