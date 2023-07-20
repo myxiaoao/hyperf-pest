@@ -30,7 +30,7 @@
         "hyperf/contract": "~3.0.0",
         "hyperf/di": "~3.0.0",
         "hyperf/utils": "~3.0.0",
-        "pestphp/pest": "^1.21"
+        "pestphp/pest": "~1.23.0"
     },
     "require-dev": {
         "composer/composer": "^2.0",
@@ -38,7 +38,7 @@
         "hyperf/testing": "~3.0.0",
         "mockery/mockery": "^1.0",
         "phpstan/phpstan": "^1.0",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^9.6",
         "swoole/ide-helper": "^5.0"
     },
     "suggest": {
